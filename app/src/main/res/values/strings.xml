@@ -1,0 +1,58 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">Surokha App</string>
+    <string name="nibondhon">নিবন্ধনের সময় প্রয়োজন হবে</string>
+    <string name="vaccinetext">ভ্যাকসিনের জন্য নিবন্ধন করুন</string>
+    <string name="status">নিবন্ধন স্ট্যাটাস</string>
+    <string name="card">টিকা কার্ড গ্রহণ</string>
+    <string name="certificate"> টিকা সনদ গ্রহণ</string>
+    <string name="question">সচরাচর জিজ্ঞাসা</string>
+    <string name="nid">জাতীয় পরিচয়পত্র নম্বর:</string>
+    <string name="brthday">জন্ম তারিখ (জাতীয় পরিচয়পত্র অনুযায়ী):</string>
+    <string name="verify1">ভ্যাকসিন নিবন্ধনের অবস্থা জানুন</string>
+    <string name="verifyform">ভ্যাকসিন নিবন্ধন ফর্ম</string>
+    <string name="verify11">ভ্যাকসিন কার্ড সংগ্রহ </string>
+    <string name="verify21">টিকা সনদ সংগ্রহ  </string>
+    <string name="verifyform1">টিনিচের ফর্মে আপনার জাতীয় পরিচয়পত্র ও মোবাইল নম্বর যাচাইপূর্বক নিবন্ধন সম্পন্ন করুন। </string>
+    <string name="verify">নিচের ফরমে আপনার জাতীয় পরিচয়পত্র নম্বর ও জন্ম তারিখ (জাতীয় পরিচয়পত্র অনুযায়ী) প্রদান করে "যাচাই করুণ" বাটনে ক্লিক করলে স্টেটাস জানা যাবে।</string>
+    <string name="verify12">নিচের ফরমে আপনার জাতীয় পরিচয়পত্র নম্বর ও জন্ম তারিখ (জাতীয় পরিচয়পত্র অনুযায়ী) প্রদান করে "যাচাই করুণ" বাটনে ক্লিক করলে কার্ড সংগ্রহ করা যাবে </string>
+    <string name="verify22">নিচের ফরমে আপনার জাতীয় পরিচয়পত্র নম্বর ও জন্ম তারিখ (জাতীয় পরিচয়পত্র অনুযায়ী) প্রদান করে "যাচাই করুণ" বাটনে ক্লিক করলে টিকা সনদ সংগ্রহ  করা যাবে  </string>
+
+    <string-array name="category">
+        <item>Who are you?</item>
+        <item>a Student</item>
+        <item>a teacher</item>
+        <item>a Doctor</item>
+        <item>a Police</item>
+        <item>a government worker</item>
+        <item>others</item>
+    </string-array>
+
+
+    <string name="next">হোম</string>
+    <string name="skip">নিবন্ধন</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">অনলাইনে নিবন্ধন
+
+
+</string>
+    <string name="slide_1_desc">প্রথমে এই পোর্টালের মাধ্যমে জাতীয় পরিচয়পত্র ও সঠিক মোবাইল নম্বর যাচাইপূর্বক অনলাইনে নিবন্ধন সম্পন্ন করবেন।</string>
+
+    <string name="slide_2_title">SMS নোটিফিকেশন</string>
+    <string name="slide_2_desc">অনলাইনে নিবন্ধন পরবর্তী তথ্য যাচাইপূর্বক পর্যায়ক্রমে টিকা প্রদানের তারিখ ও কেন্দ্রের নাম উল্লেখপূর্বক মুঠোফোনে খুদেবার্তা পাবেন।.</string>
+    <string name="slide_3_title">টিকা কেন্দ্রে টিকা গ্রহণ</string>
+    <string name="slide_3_desc">" মুঠোফোনে খুদেবার্তা প্রাপ্তি সাপেক্ষে টিকাকার্ড জাতীয় পরিচয়পত্র ও সম্মতিপত্রসহ নির্দিষ্ট তারিখে টিকাদান কেন্দ্রে স্ব-শরীরে উপস্থিত হয়ে কোভিড-১৯ টিকা গ্রহণ করবেন।"</string>
+    <string name="arrow">arrow</string>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="slide_title">30dp</dimen>
+    <dimen name="slide_desc">16dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+</resources>

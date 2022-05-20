@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Verification_Pages.CertificateActivity">
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verify21"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/verify22"
+        android:textColor="#4C4747"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nid"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp"
+        android:hint="*************"
+        android:background="@drawable/stroke_box"
+        >
+
+    </EditText>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/brthday"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        >
+
+    </TextView>
+
+
+
+    <EditText
+
+        android:id="@+id/pickDate"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:hint="dd/mm/yyyy"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/stroke_box"
+        />
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#84D12B"
+        android:text="যাচাই করুন ">
+
+    </Button>
+
+
+</LinearLayout>

@@ -5,6 +5,7 @@ import static android.content.ContentValues.TAG;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.DatePickerDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.InputType;
 import android.util.Log;
@@ -15,6 +16,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.surokhaapp.MainActivity;
 import com.example.surokhaapp.ModelClass.ModelClass;
 import com.example.surokhaapp.R;
 import com.example.surokhaapp.Retrofit.ApiInterface;
@@ -46,6 +48,8 @@ ApiInterface apiInterface;
         View view = binding.getRoot();
         setContentView(view);
 
+
+
         binding.spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
@@ -71,7 +75,7 @@ binding.Datepick.setOnClickListener(new View.OnClickListener() {
     }
 });
 
-
+//Button register
         binding.register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -98,8 +102,8 @@ binding.Datepick.setOnClickListener(new View.OnClickListener() {
                         new DatePickerDialog.OnDateSetListener() {
                             @Override
                             public void onDateSet(DatePicker view, int year, int monthOfYear, int dayOfMonth) {
-                                eText.setText(dayOfMonth + "/" + (monthOfYear + 1) + "/" + year);
-
+                               eText.setText(dayOfMonth + "/" + (monthOfYear + 1) + "/" + year);
+dob=eText.getText().toString();
                             }
                         }, year, month, day);
                 picker.show();
@@ -132,6 +136,8 @@ binding.Datepick.setOnClickListener(new View.OnClickListener() {
             public void onResponse(Call<ModelClass> call, Response<ModelClass> response) {
 
                 Toast.makeText(RegisterActivity.this, "inserted", Toast.LENGTH_LONG).show();
+                Intent i = new Intent(RegisterActivity.this, RegisterActivity.class);
+                startActivity(i);
 
             }
 

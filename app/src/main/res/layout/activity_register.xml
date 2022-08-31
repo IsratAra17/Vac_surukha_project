@@ -4,9 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:weightSum="10"
     android:orientation="vertical"
     tools:context=".Verification_Pages.RegisterActivity">
     <TextView
+        android:layout_weight="1"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -20,6 +22,7 @@
 
 
     <TextView
+        android:layout_weight="1"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,7 +33,7 @@
 
     </TextView>
     <androidx.cardview.widget.CardView
-
+        android:layout_weight="1"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
@@ -42,6 +45,7 @@
         android:id="@+id/cardmiddle"
         android:layout_below="@+id/cardview1">
         <LinearLayout
+            android:layout_weight="1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
@@ -77,6 +81,7 @@
 
     </androidx.cardview.widget.CardView>
     <TextView
+        android:layout_weight="1"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -88,6 +93,7 @@
 
     </TextView>
     <Spinner
+        android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_margin="5dp"
@@ -98,6 +104,7 @@
 
     </Spinner>
     <TextView
+        android:layout_weight="1"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -109,6 +116,7 @@
     </TextView>
 
     <EditText
+        android:layout_weight="1"
         android:id="@+id/et_nationalId"
         android:layout_width="match_parent"
         android:layout_height="40dp"
@@ -120,6 +128,7 @@
     </EditText>
 
     <TextView
+        android:layout_weight="1"
         android:layout_margin="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -133,9 +142,10 @@
 
 
     <EditText
+        android:layout_weight="1"
 
         android:id="@+id/Datepick"
-        android:layout_margin="10dp"
+
         android:gravity="center"
         android:hint="dd/mm/yyyy"
         android:inputType="date"
@@ -144,12 +154,12 @@
         android:background="@drawable/stroke_box"
         />
     <Button
+        android:layout_weight="1"
         android:id="@+id/register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="end"
         android:textSize="20sp"
-        android:layout_marginTop="20dp"
         android:backgroundTint="#84D12B"
         android:text="যাচাই করুন ">
 
